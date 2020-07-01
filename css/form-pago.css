@@ -1,0 +1,76 @@
+body {
+    background-color: #E2D8E4;
+    font-family: Sriracha,"Open Sans", Arial;
+}
+
+
+.logo{
+    width: 73px;
+    margin-left: 80px;
+}
+
+
+.navbar-brand{
+    font-size: 35px;
+}
+
+.contenedor-nav{
+    margin-right: 80px;
+    margin-left: 45%;
+
+}
+.cuerpo{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+footer {
+    background-color: #593196;
+    width: 100%;
+    float: left;
+    margin-top:auto;
+    padding-left: 33%;
+    font-size: 20px;
+    font-style: normal;
+}
+footer li{
+    float: left;
+    padding-right: 100px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+/*Estilos de el footer y el header*/
+
+.contenedor-formulario{
+    margin-top: 5%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color:whitesmoke;
+}
+
+section {
+    padding-top: 10px;
+    padding-right:10% ;
+    padding-left: 10%;
+}
+
+section h3{
+    text-align: center;
+    background-color: #e2d8e4;
+}
+
+section label{
+    margin-top: 5%;
+}
+
+section .btn-primary{
+
+    margin-top: 5%;
+    text-align: center;
+    margin-left: 45%;
+    margin-block-end: 15%;
+}
