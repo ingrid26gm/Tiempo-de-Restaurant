@@ -1,3 +1,40 @@
+<! Generación del ticket>
+<link rel="stylesheet" href="css/ticket.css">
+<div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+            <div class="close-btn" onclick="togglePopup()">&times;</div>
+            <h2>Ticket</h2>
+            <p>
+                <! recupera toda la información del carrito una vez que se haya procesado el pago>
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-active">
+                            <!Aquí van los querys del sistema>
+                            <td>Column content</td>
+                            <td>Column content</td>
+                        </tr>
+                        <tr class="table-primary">
+                            <td>Column content</td>
+                            <td>Column content</td>
+                        </tr>
+                        <br>
+                        <tr class="table-secondary">
+                            <td>Total</td>
+                            <td>$0.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </p>
+    </div>
+</div>
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -28,7 +65,7 @@
                         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Carrito </a>
+                                <a class="nav-link" href="cart.html">Carrito </a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#"> Like</a>
@@ -59,14 +96,21 @@
                     <small id="emailHelp" class="form-text text-muted">Introduce un correo valido para recibir tu ticket</small>
                 </div>
                 <div class="form-group">
-                    <label class="col-form-label" for="inputDefault">Telefono</label>
-                    <input type="text" class="form-control" placeholder="Apellidos" id="inputApellido" required>
+                    <label class="col-form-label" for="inputDefault">Teléfono</label>
+                    <input type="text" class="form-control" placeholder="Teléfono" id="inputTelefono" required>
+                    <small id="telefonoHelp" class="form-text text-muted">Introduce un número de Teléfono valido para recibir tu ticket</small>
                 </div>
                 <section class="opciones-pago">
                     <div class="subt-pago">
                         <h3>Datos personales</h3>
                     </div>
+                    <button type="submit" onclick="togglePopup()">Genera ticket</button>
                     <button type="submit" class="btn-primary">PAYPAL</button>
+                    <script>
+                        function togglePopup(){
+                            document.getElementById("popup-1").classList.toggle("active");
+                        }
+                    </script>
                 </section>
             </section>
         </form>

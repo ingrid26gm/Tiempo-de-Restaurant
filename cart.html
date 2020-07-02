@@ -8,29 +8,35 @@
 	<title>Carrito | Tiempo de Restaurant</title>
 </head>
 <body>
-	<header class="header-principal">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-			<a href="index.html">
-				<img src="img/logo.png" alt="Tiempo de Restaruante Logo" class="logo">
-			</a>
-			<a class="navbar-brand" href="index.html">Tiempo de Restaurant</a>
-			<button class="navbar-toggler" type="button" data-toggle="csollapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-			  <span class="navbar-toggler-icon"></span>
-			</button>
-		  
-			<div class="collapse navbar-collapse" id="navbarColor01">
-			  <form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="text" placeholder="Búsqueda">
-				<button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
-			  </form>
-			  <ul class="navbar-nav mr-auto">
-				  <li class="nav-item">
-					  <a class="nav-link" href="#">like</a>
-				  </li>
-			  </ul>
-			</div>
-		  </nav>
-	</header>
+    <header class="header-principal">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a href="index.html">
+                <img class="logo" src="img/logo.png" alt="Logo Tiempo de Restaurant">
+            </a>
+            <a class="navbar-brand" href="index.html">Tiempo de Restaurant</a>
+            <div class="contenedor-nav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                    aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Menú </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="menu.html"> Like</a>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+            </div>
+        </nav>
+    </header>
 
 	<h2>Agregados al carrito <img src="img/carrito.png" alt="Cart" width="100px" height="100px"></h2>
 	<br>
@@ -68,15 +74,16 @@
 	<div class="botones">
 		<center>
 		<button type="button" class="btn btn-outline-secondary">
-			<a href="ticket.html">
-				Generar ticket
+			<a href="form-pago.html">
+				Pagar
 			</a>
 		</button>
 		<button type="button" class="btn btn-outline-secondary">
-			<a href="#">
+			<a href="menu.html">
 				Volver a menú
 			</a>
 		</button>
+		
 		</center>
 	</div>
 	<br>
