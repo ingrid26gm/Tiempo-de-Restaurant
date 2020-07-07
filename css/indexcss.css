@@ -1,0 +1,113 @@
+body {
+    background-color: #E2D8E4;
+    font-family: Sriracha,"Open Sans", Arial;
+}
+
+
+.logo{
+    width: 73px;
+    margin-left: 80px;
+}
+
+
+.navbar-brand{
+    font-size: 35px;
+}
+
+.contenedor-nav{
+    margin-right: 80px;
+    margin-left: 45%;
+
+}
+.cuerpo{
+    margin-left: 80px;
+}
+.fondo-reservacion{
+    width: 1902px;
+}
+
+.contenedor-reservacion{
+    position: relative;
+    filter: opacity(75%);
+    background-color: #E2D8E4;
+}
+.titulo-seleccion{
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    color: white;
+    font-size: 35px;
+    background-color: black;
+}
+
+li{
+float: left;
+list-style: none;
+padding: 10px;
+}
+
+.reservacion{
+    position: absolute;
+    top: 35%;
+    left: 37%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.slider {
+	width: 70%;
+	margin-left: 25%;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 1000px;
+    height: 600px;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+footer {
+    background-color: #593196;
+    width: 100%;
+    float: left;
+    margin-top:auto;
+    padding-left: 33%;
+    font-size: 20px;
+    font-style: normal;
+}
+footer li{
+    padding-right: 100px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
