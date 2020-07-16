@@ -1,0 +1,57 @@
+body {
+    background-color: #E2D8E4;
+    font-family: Sriracha,"Open Sans", Arial;
+}
+
+
+.logo{
+    width: 73px;
+}
+
+
+.navbar-brand{
+    font-size: 35px;
+}
+
+nav .titulo{
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+.contenedor-nav{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 12%;
+}
+
+header li{
+ padding-inline-start: 0px;
+ margin-right: 45px;
+}
+
+/* --------------------*/
+
+
+
+
+/*----------------------------*/
+footer {
+    background-color: #593196;
+    width: 100%;
+    float: left;
+    margin-top:auto;
+    padding-left: 33%;
+    font-size: 20px;
+    font-style: normal;
+}
+footer li{
+    float: left;
+    padding-right: 100px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
